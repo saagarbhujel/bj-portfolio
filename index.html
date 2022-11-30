@@ -5,6 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bijay Baniya</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
     <script
       src="https://kit.fontawesome.com/bee1918978.js"
@@ -16,18 +30,18 @@
       <nav class="nav-bar">
         <h2>BJ</h2>
         <ul class="nav-lists">
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">SERVICE</a></li>
-          <li><a href="#">WORKS</a></li>
-          <li><a href="#">BLOG</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#gallery">GALLERY</a></li>
+          <li><a href="#works">WORKS</a></li>
+          <li><a href="#blog">BLOG</a></li>
+          <li><a href="#contact">CONTACT</a></li>
         </ul>
       </nav>
     </header>
 
     <main class="main">
-      <section class="home">
+      <section class="home" id="home">
         <div class="bio">
           <h4>HELLO</h4>
           <h2>I'm <span>Bijay Baniya</span></h2>
@@ -42,8 +56,8 @@
           </div>
 
           <div class="icons">
-            <a href="#"> <i class="fa-brands fa-facebook"></i></a>
-            <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100077301735835"> <i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/beejay7853/"> <i class="fa-brands fa-instagram"></i></a>
             <a href="#"> <i class="fa-brands fa-twitter"></i></a>
             <a href="#"> <i class="fa-brands fa-linkedin"></i></a>
           </div>
@@ -53,7 +67,7 @@
         </div>
       </section>
 
-      <section class="about">
+      <section class="about" id="about">
         <div class="img">
           <img src="/images/IMG_4813.JPG" alt="" width="280px" height="350px" />
         </div>
@@ -72,38 +86,80 @@
             earum, ab provident, obcaecati illo dicta harum incidunt optio,
             impedit officiis nulla!
           </p>
-          
-           <div class="btn" id="btn-2">
-            <a href="#" >DOWNLOAD CV</a>
-           </div>
-          
+
+          <div class="btn" id="btn-2">
+            <a href="#">DOWNLOAD CV</a>
+          </div>
         </div>
       </section>
 
-      <section class="gallery">
+      <section class="gallery" id="gallery">
         <h1>GALLERY</h1>
-        <div class="photos">
-          <img src="/images/IMG_4813.JPG" alt="">
-          <img src="/images/IMG_4813.JPG" alt="">
-          <img src="/images/IMG_4813.JPG" alt="">
-          <img src="/images/IMG_4813.JPG" alt="">
-          <img src="/images/IMG_4813.JPG" alt="">
-          <img src="/images/IMG_4813.JPG" alt="">
-          <img src="/images/IMG_4813.JPG" alt="">
-          <img src="/images/IMG_4813.JPG" alt="">      
+        <div class="photos owl-carousel owl-theme">
+          <div class="pic"><img src="/images/IMG_4832.JPG" alt="" /></div>
+          <div class="pic"><img src="/images/IMG_4833.JPG" alt="" /></div>
+          <div class="pic"><img src="/images/IMG_4834.JPG" alt="" /></div>
+          <div class="pic"><img src="/images/IMG_4835.JPG" alt="" /></div>
+          <div class="pic"><img src="/images/IMG_4836.JPG" alt="" /></div>
+          <div class="pic"><img src="/images/IMG_4837.JPG" alt="" /></div>
+          <div class="pic"><img src="/images/IMG_4838.JPG" alt="" /></div>
+          <div class="pic"><img src="/images/IMG_4840.JPG" alt="" /></div>
+          <div class="pic"><img src="/images/IMG_4841.JPG" alt="" /></div>
+          <div class="pic"><img src="/images/IMG_4842.JPG" alt="" /></div>
+          <div class="pic"><img src="/images/IMG_4843.JPG" alt="" /></div>
+          <div class="pic"><img src="/images/IMG_4844.JPG" alt="" /></div>
+          <div class="pic"><img src="/images/IMG_4845.JPG" alt="" /></div>
         </div>
       </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer" id="contact">
       <h3>CONTACTS</h3>
       <div class="contact">
-        <a href="#"> <i class="fa-brands fa-facebook"></i>FACEBOOK</a>
-        <a href="#"> <i class="fa-brands fa-instagram"></i>INSTAGRAM</a>
+        <a href="https://www.facebook.com/profile.php?id=100077301735835"> <i class="fa-brands fa-facebook"></i>FACEBOOK</a>
+        <a href="https://www.instagram.com/beejay7853/"> <i class="fa-brands fa-instagram"></i>INSTAGRAM</a>
         <a href="#"> <i class="fa-brands fa-twitter"></i>TWITTER</a>
         <a href="#"> <i class="fa-brands fa-linkedin"></i>LINKEDIN</a>
       </div>
       <p class="copyright">©COPYRIGHT RESERVED SINCE 2022.</p>
     </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        responsiveClass: true,
+        nav:true,
+        autoplay:true,
+        autoplaySpeed:300,
+        responsive: {
+          0: {
+            items: 1,
+            nav: true,
+          },
+          600: {
+            items: 3,
+            nav: false,
+          },
+          1000: {
+            items: 5,
+            nav: true,
+            loop: false,
+          },
+        },
+      });
+    </script>
   </body>
 </html>
